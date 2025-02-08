@@ -3,6 +3,7 @@ import buildingImage from "../images/building.jpg"
 import reactImage from "../images/react.jpg"
 import jsImage from "../images/js.jpg"
 import pythonImage from "../images/python.jpg"
+import pictgramImage from "../images/pictgram.jpg"
 
 const HomePage = () => {
   return (
@@ -14,7 +15,7 @@ const HomePage = () => {
 
       <section id="skill">
         <div class="text-center">
-          <h1 class="title">スキル</h1>
+          <h1 class="title">スキル一覧</h1>
           <ul class="top-banner">
             <li class="col">
               <img src={reactImage} />
@@ -80,6 +81,27 @@ const HomePage = () => {
         </div>
       </section>
 
+      <div class="aboutme">
+        <h2>About me</h2>
+        <div class="row">
+          <div class="col">
+            <img src={pictgramImage}></img>
+            <p class="text">石川県出身のエンジニア。
+              高専で機械工学、技科大で材料工学を学んだのち、メーカーで温度センサーの材料開発・生産に従事。
+              その後ITの技術にひかれ、31才でIT業界へ転職。運用・テクニカルサポートからキャリアをスタートし、
+              AWSクラウドサーバー構築、Webページ作成、Python/djangoのツール改修など、
+              インフラからフロントサイドまで幅広く業務を経験してきました。
+            </p>
+          </div>
+          <ul>
+            <li>
+              "-Github: "
+              <a href="https://github.com/Kni4mo10">https://github.com/Kni4mo10</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      
     </div>
   )
 }

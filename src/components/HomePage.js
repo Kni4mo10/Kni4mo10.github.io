@@ -14,7 +14,7 @@ const HomePage = () => {
         transition={{ duration: 2 }}
         viewport={{ once: true }}>
         <div class="top">
-          <img src={buildingImage} className="buildingImage" alt=""/>
+          <img src={buildingImage} className="buildingImage" alt="" />
           <p>it's time to build</p>
         </div>
       </motion.div>
@@ -24,19 +24,19 @@ const HomePage = () => {
           <h1 class="title">スキル一覧</h1>
           <ul class="skill-list">
             <li class="col">
-              <img src={reactImage} alt=""/>
+              <img src={reactImage} alt="" />
               <h4>React</h4>
               <p>学習中</p>
             </li>
             <li class="col">
-              <img src={jsImage} alt=""/>
+              <img src={jsImage} alt="" />
               <h4>HTML/CSS</h4>
               <p>学習中</p>
             </li>
             <li class="col">
-              <img src={pythonImage} alt=""/>
+              <img src={pythonImage} alt="" />
               <h4>Python</h4>
-              <p>python使用できます</p>
+              <p>使用できます</p>
             </li>
           </ul>
         </div>
@@ -48,10 +48,9 @@ const HomePage = () => {
           <div class="col">
             <figure class="profile"><img src={pictgramImage} alt=""></img></figure>
             <p class="text">大阪府出身のエンジニア。
-              高専で機械工学、技科大で材料工学を学んだのち、メーカーで温度センサーの材料開発・生産に従事。
-              その後ITの技術にひかれ、21才でIT業界へ転職。運用・テクニカルサポートからキャリアをスタートし、
+              ITの技術にひかれ、21才でIT業界へ転職。運用・テクニカルサポートからキャリアをスタートし、
               AWSクラウドサーバー構築、Webページ作成、Python/djangoのツール改修など、
-              インフラからフロントサイドまで幅広く業務を経験してきました。
+              インフラからバックエンド、フロントサイドまで幅広く業務を経験してきました。
             </p>
           </div>
         </div>

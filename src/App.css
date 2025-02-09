@@ -87,16 +87,19 @@ nav ul li a {
     list-style: none;
 }
 
-img {
-    width: 200px;
-    height: 200px;
+#skill img {
+    width: 250px;
+    height: 250px;
+}
+.aboutme {
+    margin-top: 30px;
 }
 
 .aboutme div {
     display: flex;
     /*横並び*/
-    margin-left: 6%;
-    margin-right: 8%;
+    margin-left: 8%;
+    margin-right: 10%;
 }
 
 
@@ -105,9 +108,13 @@ img {
     /*横並び*/
 }
 
-.profile  {
-    width: 200px;
-    height: 200px;
+.profile img  {
+    width: 140px;
+    height: 140px;
+}
+
+.text {
+    display: flex;
 }
 
 .url{
@@ -119,6 +126,7 @@ img {
 
 .url a {
     color: grey;
+    text-decoration: none;
 }
 
 

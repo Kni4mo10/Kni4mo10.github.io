@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <header>
         <div className='logo'>
-            <h3>ポートフォリオ</h3>
+            <h3>Portfolio</h3>
         </div>
 
         <nav>
@@ -14,7 +14,7 @@ const Header = () => {
                     <Link to="/">Home</Link>
                 </li>
                 <li>
-                    <a href='#'>SNS</a>
+                    <a href="https://github.com/Kni4mo10">SNS</a>
                 </li>
             </ul>
         </nav>

@@ -1,7 +1,7 @@
 .App {
     width: 100%;
     height: 200px;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 header {
@@ -34,8 +34,8 @@ nav ul li a {
 
 .container {
     background-color: rgb(54, 53, 53);
-    color: white;
-
+    color: white;  
+    overflow: hidden;
 }
 
 .top {
@@ -61,38 +61,103 @@ nav ul li a {
 
 .buildingImage {
     width: 100%;
-    height: 450px;
+    height: 500px;
 }
 
-.container h1 {
+.section-title-area {
     text-align: center;
-    font-size: 40px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 10%;
 }
 
-.container h2 {
-    text-align: center;
+#skill .section-skill {
+    font-size: 24px;
 }
 
-.skill-list {
+#skill .card-wrapper {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
-.skill-list li {
-    width: calc(100%/3);
-    /*←画像を横に〇つ並べる場合*/
-    padding: 0 5px;
-    /*←画像の左右に余白を入れる場合*/
-    box-sizing: border-box;
-    list-style: none;
+#skill .card {
+    display: flex;
+    flex-basis: 46%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 50px;
 }
 
-#skill img {
-    width: 250px;
-    height: 250px;
+#skill .skill-icon {
+    flex-basis: 60px;
 }
-.aboutme {
-    margin-top: 30px;
+
+#skill .skill-desc {
+    flex-basis: calc(100% - 60px - 30px);
+}
+
+#skill .skill-desc-title {
+    margin-bottom: 3px;
+}
+
+#skill .rate {
+    font-size: 16px;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 20px;
+    letter-spacing: .3em;
+}
+
+#skill .rate:before,
+#skill .rate:after {
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    height: 20px;
+    content: "★★★★★";
+}
+
+
+#skill .rate:before {
+    color: #ddd;
+}
+
+#skill .rate:after {
+    overflow: hidden;
+    white-space: nowrap;
+    color: black;
+}
+
+#skill .rate1:after {
+    width: 20px;
+}
+
+#skill .rate2:after {
+    width: 40px;
+}
+
+#skill .rate3:after {
+    width: 60px;
+}
+
+#skill .rate4:after {
+    width: 80px;
+}
+
+#skill .rate5:after {
+    width: 100px;
+}
+
+
+.aboutme h2{
+    margin-top: 100px;
+    text-align: center;
 }
 
 .aboutme div {
@@ -108,7 +173,7 @@ nav ul li a {
     /*横並び*/
 }
 
-.profile img  {
+.profile img {
     width: 140px;
     height: 140px;
 }
@@ -117,15 +182,15 @@ nav ul li a {
     display: flex;
 }
 
-.url{
+.url {
     text-align: center;
     font-weight: bold;
     list-style: none;
-    padding-bottom: 30px;
+    padding-bottom: 100px;
 }
 
 .url a {
-    color: grey;
+    color: gray;
     text-decoration: none;
 }
 

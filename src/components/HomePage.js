@@ -6,32 +6,33 @@ import pictgramImage from "../images/pictgram.jpg"
 import jsImage from "../images/js.svg"
 import cssImage from "../images/css.svg"
 import javaImage from "../images/java.svg"
-import pythonImage from "../images/python.svg"
+import pythonImage from "../images/python.png"
 import databaseImage from "../images/database.svg"
 import reactImage from "../images/react.svg"
 import djangoImage from "../images/django.png"
-import springImage from "../images/spring.svg"
+import springImage from "../images/spring.png"
 import dockerImage from "../images/docker.svg"
 import linuxImage from "../images/linux.svg"
 import awsImage from "../images/aws.svg"
-import ciscoImage from "../images/cisco.svg"
+import ciscoImage from "../images/cisco.png"
 import windowsImage from "../images/windows.svg"
 import githubImage from "../images/github.svg"
 
 const HomePage = () => {
   return (
     <div className="container text-center">
-      <motion.div initial={{ opacity: 0, x: -100 }}
+      <motion.div
+        className="figure2"
+        initial={{ opacity: 0, x: -100 }}
         animate={{ opacity: 1, x: 0 }}
-        transition={{ duration: 2 }}
-        viewport={{ once: true }}>
+        transition={{ duration: 2, delay: 0.8 }}>
         <div class="top">
           <img src={buildingImage} className="buildingImage" alt="" />
           <motion.div
             className="figure2"
             initial={{ x: 10, y: -500 }}
             animate={{ x: 10, y: -225 }}
-            transition={{ duration: 1.5, delay: 0.5 }}>
+            transition={{ duration: 1.5, delay: 1.4 }}>
             <p>it's time to build</p>
           </motion.div>
         </div>
@@ -42,8 +43,8 @@ const HomePage = () => {
           <div class="section-title-area">
             <h2 class="section-title">SKILL</h2>
             <div class="section-intro">
-              クラウド関連を中心に幅広く技術習得に励んでおります。
-              これからも日々研鑽していきます！以下チャートは各スキルごとの得意度をレートで示しています。
+              日々研鑽していきます！<br />
+              以下チャートは各スキルごとの得意度をレートで示しています。
             </div>
           </div>
         </div>
@@ -61,7 +62,7 @@ const HomePage = () => {
               <div class="skill-desc">
                 <h3 class="skill-desc-title">HTML5</h3>
                 <div class="rating">
-                  <div class="rate rate4"></div>
+                  <div class="rate rate3"></div>
                 </div>
                 <div class="section-text">
                   HTMLの独学をきっかけにオープン系開発に興味を持ちました。
@@ -75,7 +76,7 @@ const HomePage = () => {
               <div class="skill-desc">
                 <h3 class="skill-desc-title">CSS3</h3>
                 <div class="rating">
-                  <div class="rate rate4"></div>
+                  <div class="rate rate3"></div>
                 </div>
                 <div class="section-text">
                   CSSの独学をきっかけにオープン系開発に興味を持ちました。
@@ -89,7 +90,7 @@ const HomePage = () => {
               <div class="skill-desc">
                 <h3 class="skill-desc-title">JavaScript</h3>
                 <div class="rating">
-                  <div class="rate rate4"></div>
+                  <div class="rate rate2"></div>
                 </div>
                 <div class="section-text">
                   JavaScriptの独学をきっかけにオープン系開発に興味を持ちました。
@@ -116,7 +117,7 @@ const HomePage = () => {
               <div class="skill-desc">
                 <h3 class="skill-desc-title">Python</h3>
                 <div class="rating">
-                  <div class="rate rate5"></div>
+                  <div class="rate rate3"></div>
                 </div>
                 <div class="section-text">
                   実務で生産管理システムのバックエンド開発で使用しました。新人教育を担当した経験があります。また、FortranからCへのコンバートを担当した経験があります。
@@ -213,7 +214,7 @@ const HomePage = () => {
               <div class="skill-desc">
                 <h3 class="skill-desc-title">SQLServer</h3>
                 <div class="rating">
-                  <div class="rate rate3"></div>
+                  <div class="rate rate2"></div>
                 </div>
                 <div class="section-text">
                   実務では主にSQLServerを使用していました。
@@ -227,7 +228,7 @@ const HomePage = () => {
               <div class="skill-desc">
                 <h3 class="skill-desc-title">MySQL</h3>
                 <div class="rating">
-                  <div class="rate rate3"></div>
+                  <div class="rate rate2"></div>
                 </div>
                 <div class="section-text">
                   LAMP環境構築を学ぶために使用しました。
@@ -254,10 +255,10 @@ const HomePage = () => {
               <div class="skill-desc">
                 <h3 class="skill-desc-title">AWS</h3>
                 <div class="rating">
-                  <div class="rate rate5"></div>
+                  <div class="rate rate2"></div>
                 </div>
                 <div class="section-text">
-                  VPCやEC2やCloudFormationなどによるクラウドインフラ構築が可能です。AWS認定全冠取得(SAP/DOP/ANS/MLS/DBS/SCS/SAA/SOA/DVA/DEA/MLA/AIF/CLF)。
+                  VPCやEC2やCloudFormationなどによるクラウドインフラ構築が可能です。
                 </div>
               </div>
             </div>
@@ -311,7 +312,7 @@ const HomePage = () => {
                   <div class="rate rate1"></div>
                 </div>
                 <div class="section-text">
-                  CCNAを取得しており、Cisco機器を使用したネットワーク構築が可能です。
+                  絶賛学習中。
                 </div>
               </div>
             </div>
@@ -335,10 +336,11 @@ const HomePage = () => {
               <div class="skill-desc">
                 <h3 class="skill-desc-title">Linux(CentOS)</h3>
                 <div class="rating">
-                  <div class="rate rate4"></div>
+                  <div class="rate rate1"></div>
                 </div>
                 <div class="section-text">
-                  インストールから環境設定、開発が可能です。主にCentOSを使用し、エディタはVimを使用しています。LPIC1の資格を取得しており、現在はLPIC2の勉強中です。
+                  インストールから環境設定、開発が可能です。主にCentOSを使用し、
+                  エディタはVimを使用しています。LPIC1の資格を取得しており、現在はLPIC2の勉強中です。
                 </div>
               </div>
             </div>
@@ -349,7 +351,7 @@ const HomePage = () => {
               <div class="skill-desc">
                 <h3 class="skill-desc-title">Windows</h3>
                 <div class="rating">
-                  <div class="rate rate4"></div>
+                  <div class="rate rate3"></div>
                 </div>
                 <div class="section-text">
                   インストールから環境設定、開発が可能。実務では、WindowsXP/7/10/11を使用しています。

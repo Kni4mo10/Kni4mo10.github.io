@@ -43,7 +43,7 @@ const HomePage = () => {
           <div class="section-title-area">
             <h2 class="section-title">SKILL</h2>
             <div class="section-intro">
-              日々研鑽していきます！<br />
+              日々精進していきます！<br />
               以下チャートは各スキルごとの得意度をレートで示しています。
             </div>
           </div>
@@ -120,7 +120,7 @@ const HomePage = () => {
                   <div class="rate rate3"></div>
                 </div>
                 <div class="section-text">
-                  実務で生産管理システムのバックエンド開発で使用しました。新人教育を担当した経験があります。また、FortranからCへのコンバートを担当した経験があります。
+                文法が簡単という理由でPythonから学習し始めました。
                 </div>
               </div>
             </div>
@@ -135,7 +135,7 @@ const HomePage = () => {
                   <div class="rate rate3"></div>
                 </div>
                 <div class="section-text">
-                  Javaを通してオブジェクト指向を学習し、開発環境ではEclipseを使用しました。
+                  Javaを通してオブジェクト指向を学習。
                 </div>
               </div>
             </div>
@@ -162,7 +162,7 @@ const HomePage = () => {
                   <div class="rate rate2"></div>
                 </div>
                 <div class="section-text">
-                  pythonのフレームワークでスピーディな開発をする上で絶賛独学中。
+                  Pythonのフレームワークで、モダンな現場でも対応できるよう学習中。
                 </div>
               </div>
             </div>
@@ -190,7 +190,7 @@ const HomePage = () => {
                   <div class="rate rate2"></div>
                 </div>
                 <div class="section-text">
-                  絶賛独学中です。
+                  絶賛学習中です。
                 </div>
               </div>
             </div>
@@ -217,7 +217,7 @@ const HomePage = () => {
                   <div class="rate rate2"></div>
                 </div>
                 <div class="section-text">
-                  実務では主にSQLServerを使用していました。
+                  絶賛学習中。
                 </div>
               </div>
             </div>
@@ -228,10 +228,11 @@ const HomePage = () => {
               <div class="skill-desc">
                 <h3 class="skill-desc-title">MySQL</h3>
                 <div class="rating">
-                  <div class="rate rate2"></div>
+                  <div class="rate rate1"></div>
                 </div>
                 <div class="section-text">
-                  LAMP環境構築を学ぶために使用しました。
+                  DATABASEを学ぶにあたってとりあえずMySQLを選んだ。
+                  絶賛学習中。
                 </div>
               </div>
             </div>
@@ -282,10 +283,11 @@ const HomePage = () => {
               <div class="skill-desc">
                 <h3 class="skill-desc-title">Docker/Docker Compose</h3>
                 <div class="rating">
-                  <div class="rate rate3"></div>
+                  <div class="rate rate2"></div>
                 </div>
                 <div class="section-text">
-                  インストールから簡単なコンテナの作成、コマンド操作が可能です。CircleCiによる自動デプロイ、自動テストに挑戦中です。
+                  インストールから簡単なコンテナの作成、コマンド操作が可能です。
+                  CircleCiによる自動デプロイ、自動テストに挑戦中です。
                 </div>
               </div>
             </div>
@@ -339,8 +341,8 @@ const HomePage = () => {
                   <div class="rate rate1"></div>
                 </div>
                 <div class="section-text">
-                  インストールから環境設定、開発が可能です。主にCentOSを使用し、
-                  エディタはVimを使用しています。LPIC1の資格を取得しており、現在はLPIC2の勉強中です。
+                  Dockerを使用するにあたって並行して学習。
+                  基本的なコマンド操作は可能。
                 </div>
               </div>
             </div>
@@ -354,7 +356,7 @@ const HomePage = () => {
                   <div class="rate rate3"></div>
                 </div>
                 <div class="section-text">
-                  インストールから環境設定、開発が可能。実務では、WindowsXP/7/10/11を使用しています。
+                  インストールから環境設定、開発が可能。Windows11を使用しています。
                 </div>
               </div>
             </div>

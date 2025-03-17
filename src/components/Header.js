@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
+/*import { Link } from 'react-router-dom';*/
 
 const Header = () => {
   return (
@@ -10,12 +10,12 @@ const Header = () => {
 
         <nav>
             <ul>
-                <li>
+                {/*<li>
                     <Link to="/">Home</Link>
                 </li>
                 <li>
-                    <a href="https://github.com/Kni4mo10">SNS</a>
-                </li>
+                    <a href="https://github.com/Kni4mo10">GitHub</a>
+                </li>*/}
             </ul>
         </nav>
     </header>

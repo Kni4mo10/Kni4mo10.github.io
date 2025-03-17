@@ -120,7 +120,7 @@ const HomePage = () => {
                   <div class="rate rate3"></div>
                 </div>
                 <div class="section-text">
-                文法が簡単という理由でPythonから学習し始めました。
+                  文法が簡単という理由でPythonから学習し始めました。
                 </div>
               </div>
             </div>
